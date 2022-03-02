@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Camera</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button defaultHref="/home" text="tel "></ion-back-button>
+      </ion-buttons>
+      <ion-toolbar>
+        
+      </ion-toolbar>
+    </ion-toolbar>
+  </ion-header>
+  <div>
+    <br />
+    <br /><br /><br /><br /><br /><br />
+  </div>
+  Take a picture
+  <div>
+    <br /><br /><br /><br /><br /><br /><br /><br />
+  </div>
+  <div>
+    <ion-button (click)="openCam()" size="large">Open Camera</ion-button>
+<img src="{{image}}">
+  </div>
+</ion-content>
